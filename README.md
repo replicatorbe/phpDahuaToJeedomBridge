@@ -10,7 +10,8 @@ Pour configurer cette interface, suivez les étapes suivantes :
 
 1. Utilisez le plugin "Virtuel" de Jeedom pour créer un virtuel dans votre système Jeedom.
 2. Associez le numéro du virtuel créé à la configuration de cette interface.
-3. Personnalisez le code en fonction de vos besoins spécifiques. Vous pouvez choisir les événements spécifiques que vous souhaitez recevoir et gérer.
+3. Personnalisez le code en fonction de vos besoins spécifiques. Vous pouvez choisir les événements spécifiques que vous souhaitez recevoir et gérer. En se basant sur la valeur de votre virtuel.
+Exemple : #[Entrée maison - exterieur][NvrDahuaAllEvents][Event]# == 'VideoMotion EST'   en condition dans le scenario
 
 ## Fonctionnalités Principales
 
